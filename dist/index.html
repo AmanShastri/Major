@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Tour and Travel Landing Page UI</title>
+  <title>TRAVELSECRETS!</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -25,6 +25,11 @@
         <nav>
             <div class="nav-logo">
                 <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/logo.svg" alt="">
+            </div>
+            <div class="container">
+                <div id="topBar">
+                    <div class="topLeft"><a href="./index.html" class="nav-link"><b>TRAVELSECRETS</b></a></div>
+            </div>
             </div>
             <div class="nav-right">
                 <div class="nav-close-icon"></div>
@@ -76,12 +81,14 @@
                                     </div>
                                     <div class="custom-options">
                                         <span class="custom-option selected" data-value="">Location</span>
-                                        <span class="custom-option" data-value="paris">Paris</span>
-                                        <span class="custom-option" data-value="istanbul">Istanbul</span>
-                                        <span class="custom-option" data-value="newyork">Newyork</span>
-                                        <span class="custom-option" data-value="london">London</span>
-                                        <span class="custom-option" data-value="tokyo">Tokyo</span>
-                                        <span class="custom-option" data-value="venice">Venice</span>
+                                        <span class="custom-option" data-value="Jaipur">Jaipur</span>
+                                        <span class="custom-option" data-value="Shillong">Shillong</span>
+                                        <span class="custom-option" data-value="Musoorie">Musoorie</span>
+                                        <span class="custom-option" data-value="Shimla">Shimla</span>
+                                        <span class="custom-option" data-value="Goa">Goa</span>
+                                        <span class="custom-option" data-value="Kashmir">Kashmir</span>
+                                        <span class="custom-option" data-value="Ladakh">Ladakh</span>
+                                        <span class="custom-option" data-value="Rishikesh">Rishikesh</span>
                                     </div>
                                 </div>
                             </div>
@@ -94,13 +101,13 @@
                                     </div>
                                     <div class="custom-options">
                                         <span class="custom-option selected" data-value="">Activity</span>
-                                        <span class="custom-option" data-value="Cycling + Mountain Biking">Cycling + Mountain Biking</span>
+                                        <span class="custom-option" data-value="Snow Boarding">Snow Boarding</span>
                                         <span class="custom-option" data-value="Camping">Camping</span>
-                                        <span class="custom-option" data-value="Food Tourism">Food Tourism</span>
-                                        <span class="custom-option" data-value="Motorcycle Touring">Motorcycle Touring</span>
+                                        <span class="custom-option" data-value="Rafting">Rafting</span>
+                                        <span class="custom-option" data-value="Trekking">Trekking</span>
                                         <span class="custom-option" data-value="Road Touring">Road Touring</span>
-                                        <span class="custom-option" data-value="Dirt Bike Touring">Dirt Bike Touring</span>
-                                        <span class="custom-option" data-value="Wine tourism">Wine tourism</span>
+                                        <span class="custom-option" data-value="Bar & Clubs">Bar & Clubs</span>
+                                        <span class="custom-option" data-value="Skiing">Skiing</span>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +115,7 @@
                         <div class="form-control">
                             <div class="custom-select-wrapper">
                                 <div class="custom-select">
-                                    <div class="custom-select__trigger"><span>Grade</span>
+                                    <div class="custom-select__trigger"><span>Class</span>
                                         <div class="arrow"></div>
                                     </div>
                                     <div class="custom-options">
@@ -176,31 +183,59 @@
             </div>
             <div class="features-cards">
                 <div class="feature-card">
-                    <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/raja-ampat.jpg" alt="" class="feature-img">
+                    <img src="./img/jaipur.jpg" alt="" class="feature-img">
                     <div class="feature-card-desc">
-                        <span class="location">Raja Ampat</span>
-                        <span class="country">Indonesia</span>
+                        <span class="location">Jaipur</span>
+                        <span class="state">Rajasthan</span>
                     </div>
                 </div>
                 <div class="feature-card">
-                    <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/fanjingshan.jpg" alt="" class="feature-img">
+                    <img src="./img/shillong.jpg" alt="" class="feature-img">
                     <div class="feature-card-desc">
-                        <span class="location">Fanjingshan</span>
-                        <span class="country">China</span>
+                        <span class="location">Shillong</span>
+                        <span class="state">Assam</span>
                     </div>
                 </div>
                 <div class="feature-card">
-                    <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/vevey.jpg" alt="" class="feature-img">
+                    <img src="./img/musoorie.jpeg" alt="" class="feature-img">
                     <div class="feature-card-desc">
-                        <span class="location">Vevey</span>
-                        <span class="country">Switzerland</span>
+                        <span class="location">Musoorie</span>
+                        <span class="state">Uttrakhand</span>
                     </div>
                 </div>
                 <div class="feature-card">
-                    <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/skadar.jpg" alt="" class="feature-img">
+                    <img src="./img/shimla.jpg" alt="" class="feature-img">
                     <div class="feature-card-desc">
-                        <span class="location">Skadar</span>
-                        <span class="country">Montenegro</span>
+                        <span class="location">Shimla</span>
+                        <span class="state">Himachal Pradesh</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <img src="./img/goa.jpg" alt="" class="feature-img">
+                    <div class="feature-card-desc">
+                        <span class="location">Goa</span>
+                        <span class="state">Maharashtra</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <img src="./img/kashmir.jpg" alt="" class="feature-img">
+                    <div class="feature-card-desc">
+                        <span class="location">Kashmir</span>
+                        <span class="state">Kashmir</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <img src="./img/ladakh.jpg" alt="" class="feature-img">
+                    <div class="feature-card-desc">
+                        <span class="location">Ladakh</span>
+                        <span class="state">Ladakh</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <img src="./img/rishikesh.jpg" alt="" class="feature-img">
+                    <div class="feature-card-desc">
+                        <span class="location">Rishikesh</span>
+                        <span class="state">Uttrakhand</span>
                     </div>
                 </div>
             </div>
@@ -215,8 +250,7 @@
     <div class="container">
         <div class="section-content">
             <div class="section-text">
-                <h3 class="section-title">Guides by Thousand
-                    Sunny </h3>
+                <h3 class="section-title">Our Travelling Secret Guides </h3>
                 <p class="p-description">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
                 <a href="#" class="btn btn-explore">Download</a>
             </div>
@@ -245,9 +279,9 @@
                             <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
                         </div>
                         <p class="testimonial-description">
-                            “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
+                            “Btech CSE 4th Year”
                         </p>
-                        <h6 class="author-name">Edward Newgate</h6>
+                        <h6 class="author-name">Aman Shastri</h6>
                         <span class="author-position">Founder Circle</span>
 
                     </div>
@@ -265,94 +299,14 @@
                             <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
                         </div>
                         <p class="testimonial-description">
-                            “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
+                            “Btech CSE 4th Year”
                         </p>
-                        <h6 class="author-name">Edward Newgate</h6>
+                        <h6 class="author-name">Aniket Gahlod</h6>
                         <span class="author-position">Founder Circle</span>
 
                     </div>
                     <div class="testimonial-img">
                         <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/testimonials/testimonial-2.jpg" alt="">
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-text">
-                        <div class="rating">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                        </div>
-                        <p class="testimonial-description">
-                            “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
-                        </p>
-                        <h6 class="author-name">Edward Newgate</h6>
-                        <span class="author-position">Founder Circle</span>
-
-                    </div>
-                    <div class="testimonial-img">
-                        <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/testimonials/testimonial-3.jpg" alt="">
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-text">
-                        <div class="rating">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                        </div>
-                        <p class="testimonial-description">
-                            “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
-                        </p>
-                        <h6 class="author-name">Edward Newgate</h6>
-                        <span class="author-position">Founder Circle</span>
-
-                    </div>
-                    <div class="testimonial-img">
-                        <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/testimonials/testimonial-4.jpg" alt="">
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-text">
-                          <div class="rating">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                        </div>
-                        <p class="testimonial-description">
-                            “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
-                        </p>
-                        <h6 class="author-name">Edward Newgate</h6>
-                        <span class="author-position">Founder Circle</span>
-
-                    </div>
-                    <div class="testimonial-img">
-                        <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/testimonials/testimonial-5.jpg" alt="">
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-text">
-                        <div class="rating">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                            <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/star.svg" alt="">
-                        </div>
-                        <p class="testimonial-description">
-                            “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
-                        </p>
-                        <h6 class="author-name">Edward Newgate</h6>
-                        <span class="author-position">Founder Circle</span>
-
-                    </div>
-                    <div class="testimonial-img">
-                        <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/testimonials/testimonial-6.jpg" alt="">
                     </div>
                 </div>
                 <div class="direction">
@@ -383,14 +337,14 @@
                 </div>
                 <div class="story">
                     <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/stories/story-2.jpg" alt="" class="story-img">
-                    <h4 class="story-title">The best Kyoto restaurant to try Japanese food</h4>
-                    <p class="story-desc">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                    <h4 class="story-title">The best restaurants to try from..</h4>
+                    <p class="story-desc">From Brunches to teahouses, here’s our guide to Uttrakhand’s best restaurants
                         to visit...</p>
                     <a href="#" class="read-more">Read More</a>
                 </div>
                 <div class="story">
                     <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/stories/story-3.jpg" alt="" class="story-img">
-                    <h4 class="story-title">Skip Chichen Itza and head to this remote Yucatan</h4>
+                    <h4 class="story-title">Explore these wide ranges on monuments in Jaipur</h4>
                     <p class="story-desc">It’s remote and challenging to get,
                         but braving the jungle and exploring
                         these ruins without the...</p>
@@ -398,7 +352,7 @@
                 </div>
                 <div class="story">
                     <img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/stories/story-4.jpg" alt="" class="story-img">
-                    <h4 class="story-title">Surf’s up at these beginner spots around the world</h4>
+                    <h4 class="story-title">Surf’s up at these beginner spots around Goa beaches.</h4>
                     <p class="story-desc">If learning to surf has in on your to-
                         do list for a while, the good news
                         is: it’s never too late...</p>
@@ -422,37 +376,37 @@
                     expert advice, travel tips destination
                     information from us
                 </p>
-                <p class="copyright">©2020 Thousand Sunny. All rights reserved</p>
+                <p class="copyright">©2020 Aman Shashtri. All rights reserved</p>
             </div>
             <div class="nav-footer">
                 <div class="nav-footer-col">
-                    <h4 class="nav-footer-title">Destinations</h4>
+                    <h4 class="nav-footer-title">Popular Destinations</h4>
                     <ul class="nav-footer-links">
                         <li class="nav-footer-item">
-                            <a href="#" class="nav-footer-link">Africa</a>
+                            <a href="#" class="nav-footer-link">Uttrakhand</a>
                         </li>
                         <li class="nav-footer-item">
-                            <a href="#" class="nav-footer-link">Antarctica</a>
+                            <a href="#" class="nav-footer-link">Jaipur</a>
                         </li>
                         <li class="nav-footer-item">
-                            <a href="#" class="nav-footer-link">Asia</a>
+                            <a href="#" class="nav-footer-link">Goa</a>
                         </li>
                         <li class="nav-footer-item">
-                            <a href="#" class="nav-footer-link">Europe</a>
+                            <a href="#" class="nav-footer-link">Kashmir</a>
                         </li>
                         <li class="nav-footer-item">
-                            <a href="#" class="nav-footer-link">America</a>
+                            <a href="#" class="nav-footer-link">Himachal</a>
                         </li>
                     </ul>
                 </div>
                 <div class="nav-footer-col">
-                    <h4 class="nav-footer-title">Shop</h4>
+                    <h4 class="nav-footer-title">Services</h4>
                     <ul class="nav-footer-links">
                         <li class="nav-footer-item">
                             <a href="#" class="nav-footer-link">Destination Guides</a>
                         </li>
                         <li class="nav-footer-item">
-                            <a href="#" class="nav-footer-link">Pictorial & Gifts</a>
+                            <a href="#" class="nav-footer-link">Photography</a>
                         </li>
                         <li class="nav-footer-item">
                             <a href="#" class="nav-footer-link">Special Offers</a>
@@ -478,7 +432,7 @@
                             <a href="#" class="nav-footer-link">Wildlife And Nature</a>
                         </li>
                         <li class="nav-footer-item">
-                            <a href="#" class="nav-footer-link">Family Holidays</a>
+                            <a href="#" class="nav-footer-link">Camping And Trekking</a>
                         </li>
                         <li class="nav-footer-item">
                             <a href="#" class="nav-footer-link">Food And Drink</a>

@@ -547,7 +547,7 @@ nav.open .nav-right {
   color: #042521;
 }
 
-.country {
+.state {
   display: block;
   font-size: 1.5rem;
   font-family: "Inter", sans-serif;
@@ -661,6 +661,33 @@ nav.open .nav-right {
   -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
+/* Alignment Issues */
+#topBar {
+  width: 100%;
+  overflow: hidden;
+  /* quick clearfix */
+}
+#topBar .topLeft {
+  width: 50%;
+  float: left;
+  font-size: 1.8rem;
+ }
+#topBar .topRight {
+  width: 65%;
+  background: #bada55;
+  float: left;
+}
+#topBar .topRight .socialPlugin {
+  float: left;
+  width:50%;
+}
+#topBar. topRighht .signUpIn {
+  float: right;
+    width:50%;
+
+}
+
 
 /* Trending Stories */
 .stories {
